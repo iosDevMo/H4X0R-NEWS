@@ -13,6 +13,8 @@
 		CD5423992A14DA7B00D4A1A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5423982A14DA7B00D4A1A9 /* Preview Assets.xcassets */; };
 		CD5423A22A14E1CA00D4A1A9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5423A12A14E1CA00D4A1A9 /* NetworkManager.swift */; };
 		CD5423A42A14E1E800D4A1A9 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5423A32A14E1E800D4A1A9 /* PostData.swift */; };
+		CD5423AA2A14F37500D4A1A9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5423A92A14F37500D4A1A9 /* DetailView.swift */; };
+		CD5423AC2A14F3B800D4A1A9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5423AB2A14F3B800D4A1A9 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		CD5423982A14DA7B00D4A1A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD5423A12A14E1CA00D4A1A9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CD5423A32A14E1E800D4A1A9 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		CD5423A92A14F37500D4A1A9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CD5423AB2A14F3B800D4A1A9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				CD5423932A14DA7A00D4A1A9 /* ContentView.swift */,
+				CD5423A92A14F37500D4A1A9 /* DetailView.swift */,
+				CD5423AB2A14F3B800D4A1A9 /* WebView.swift */,
 				CD5423A02A14E18400D4A1A9 /* Models */,
 			);
 			path = Views;
@@ -162,6 +168,8 @@
 				CD5423A22A14E1CA00D4A1A9 /* NetworkManager.swift in Sources */,
 				CD5423A42A14E1E800D4A1A9 /* PostData.swift in Sources */,
 				CD5423942A14DA7A00D4A1A9 /* ContentView.swift in Sources */,
+				CD5423AC2A14F3B800D4A1A9 /* WebView.swift in Sources */,
+				CD5423AA2A14F37500D4A1A9 /* DetailView.swift in Sources */,
 				CD5423922A14DA7A00D4A1A9 /* H4X0R_newsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
